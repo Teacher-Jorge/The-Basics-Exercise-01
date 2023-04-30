@@ -16,7 +16,7 @@
     font-family: 'racing sans one';
     font-size: 25px;
     color:rgb(0, 238, 255);
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     text-shadow: 1px 1px 2px black;
 }
 
@@ -28,47 +28,46 @@
 }
 
 .score {
+    color: rgb(255, 123, 0);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .score-number {
     color: rgb(21, 255, 0);
     text-shadow: 1px 1px 2px black;
-    font-size: 20px;
+    font-size: 25px;
     background: 255,255,255;
     margin-left: 5px;
 }
 
 .questions-container {
-    max-width: 470px;
+    max-width: 350px;
     margin: 0px auto;
     display: grid;
     grid-template-columns:  92% 8%;
     justify-content: start;
     font-family: 'racing sans one';
-    font-weight: 100;
-    
 }
 
 
 .questions-container-B {
-    max-width: 470px;
+    max-width: 350px;
     margin: 0px auto;
     display: grid;
     grid-template-columns:  92% 8%;
     justify-content: start;
     font-family: 'racing sans one';
-    font-weight: 100;
     margin-bottom: 20px;
+    
 }
 
 .names {
     font-family: 'bangers';
     color:rgb(0, 247, 255);
-    font-size: 30px;
+    font-size: 20px;
     text-shadow: 1px 1px 2px rgba(0,0,0, 0.8);
     margin-right: 10px;
 }
@@ -77,12 +76,12 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    font-size: 20px;
+    font-size: 16px;
     color: rgb(109, 3, 207);
 }
 
 .input {
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'racing sans one';
     color: rgb(0, 0, 0);
     width: 3.5rem;
@@ -101,11 +100,10 @@
 }
 
 .check {
-    width: 40px;
-    visibility: hidden;
+    margin-top: 5px;
+    width: 25px;
+    visibility: visible;
 }
-
-
 
 .translation {
     display: flex;
@@ -121,13 +119,13 @@
 
 .btnTranslation {
     width: 40px;
-    height: 40px;
+    height: 25px;
     margin-left: 10px;
     background-color: #fff;
-    color: darkcyan;
-    border-radius: 20px;
+    color: rgb(255, 0, 0);
+    border-radius: 10px;
     font-family: 'racing sans one';
-    font-size: 8px;
+    font-size: 10px;
     border-style: none;
     background-color: #fff;
     box-shadow: inset 2px 2px 5px 1px rgba(0,0,0,0.2)
