@@ -6,8 +6,15 @@
 }
 
 .score-container {
+    background-color: rgb(183, 0, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: sticky;
     top: 0px;
+    width: 120px;
+    height: 25px;
+    border: 1px solid red;
 }
 
 .heading-container {
@@ -20,11 +27,6 @@
     font-size: 24px;
     color:rgb(0, 238, 255);
     text-shadow: 1px 1px 2px black;
-}
-
-.super-container {
-    width: 340px;
-    margin: 0 auto;
 }
 
 .words {
