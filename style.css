@@ -9,7 +9,7 @@
     width: 350px;
     margin: 0 auto;
     position: sticky;
-    top: 0;
+    top: 1px;
 }
 
 .heading-container {
@@ -17,13 +17,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: sticky;
-    top: 0;
     background: #fff;
     font-family: 'racing sans one';
     font-size: 25px;
     color:rgb(0, 238, 255);
-    margin-bottom: 0px;
     text-shadow: 1px 1px 2px black;
 }
 
@@ -124,7 +121,7 @@
     width: 350px;
     height: 30px;
     color:rgb(234, 0, 255);
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'racing sans one';
     text-shadow: 1px 1px 1px black;
 }
